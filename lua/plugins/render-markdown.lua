@@ -3,7 +3,8 @@ return {
     "MeanderingProgrammer/render-markdown.nvim",
     opts = {
       bullet = {
-        icons = { "● ", "○ ", "◆ ", "◇ " },
+        icons = { "●", "○", "◆", "◇" },
+        right_pad = 1,
       },
     },
   },
